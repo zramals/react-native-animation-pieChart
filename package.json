@@ -1,0 +1,27 @@
+{
+  "name": "react-native-animation-piechart",
+  "version": "0.0.2",
+  "description": "a react-native animated piechart",
+  "main": "PieChart/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zramals/react-native-animation-pieChart.git"
+  },
+  "keywords": [
+    "zramals",
+    "animation",
+    "piechart"
+  ],
+  "author": "zramals",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zramals/react-native-animation-pieChart/issues"
+  },
+  "homepage": "https://github.com/zramals/react-native-animation-pieChart#readme",
+  "dependencies": {
+	
+  }
+}
