@@ -1,8 +1,11 @@
 # react-native-animation-pieChart
 react-native-animation-pieChart
+
 带有动画效果的绘制扇形图，可以绘制边线为虚线。
 
-###PropTypes
+![显示文本](https://github.com/zramals/react-native-animation-pieChart/blob/master/demo/示例图.png)
+
+### PropTypes
 
 ```
 percentArray: PropTypes.array.isRequired,
@@ -13,7 +16,7 @@ duration: PropTypes.number,     //animation duration
 configArray: PropTypes.array,    //set strokeDash config
 ```
 
-###example
+### example
 ```
 import React, { Component } from 'react'
 import { Text, View, StyleSheet } from 'react-native'
