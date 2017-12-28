@@ -13,7 +13,8 @@
   "keywords": [
     "zramals",
     "animation",
-    "piechart"
+	"piechart",
+	"react-native"
   ],
   "author": "zramals",
   "license": "MIT",
