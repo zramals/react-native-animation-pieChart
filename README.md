@@ -18,10 +18,16 @@ innerRadius: PropTypes.number,
 outerRadius: PropTypes.number.isRequired,
 // 动画执行方式
 animationType: PropTypes.oneOf(['sequence', 'synchron']),
+// 开始动画的角度
+rotation:PropTypes.number,
+// 动画执行方向，是否为顺时针
+isClockwise: PropTypes.bool,
 // 动画执行时间
 duration: PropTypes.number,
 // 配置, eg: [,{stroke:'red',strokeWidth:1,strokeDash:[2,5]},,{stroke:'black',strokeWidth:1,strokeDash:[2,5]}]
 configArray: PropTypes.array,
+// 动画结束时的回调函数
+animationEndCallBack: PropTypes.func,
 ```
 
 ### example
@@ -54,8 +60,6 @@ export default class PieChartView extends Component {
 						colorArray={['#4d84eb', '#fca63e','green','yellow']}
 						outerRadius={40}
 						innerRadius={25}
-						duration={1000}
-						configArray={[,{stroke:'red',strokeWidth:1,strokeDash:[2,5]},,{stroke:'black',strokeWidth:1,strokeDash:[2,5]}]}
 					/>
 				</View>
 			</View>
