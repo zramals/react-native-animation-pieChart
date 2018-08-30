@@ -3,6 +3,8 @@ react-native-animation-pieChart
 
 带有动画效果的绘制扇形图，可以绘制边线为虚线。
 
+PS:注意需要依赖react-native自带的ART库
+
 ![显示文本](https://github.com/zramals/react-native-animation-pieChart/blob/master/demo/pieChart%E7%A4%BA%E4%BE%8B%E5%9B%BE.png)
 
 ### PropTypes
