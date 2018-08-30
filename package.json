@@ -1,6 +1,6 @@
 {
   "name": "react-native-animation-piechart",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "a react-native animated piechart",
   "main": "PieChart/index.js",
   "scripts": {
