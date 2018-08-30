@@ -13,8 +13,8 @@
   "keywords": [
     "zramals",
     "animation",
-	"piechart",
-	"react-native"
+    "piechart",
+    "react-native"
   ],
   "author": "zramals",
   "license": "MIT",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/zramals/react-native-animation-pieChart#readme",
   "dependencies": {
-	
+
   }
 }

@@ -1,28 +1,7 @@
 ###
 	动画扇形图 @by zramals  201704
-###
-	注意事项
 
-使用的页面必须有`state`初始化，可以为空，用来触发动画的绘制。
-若从外部传入参数，则建议使用
-```
-componentWillReceiveProps(nextProps) {
-		if (nextProps) {
-			this.setState({
-				percent: nextProps.percent,
-			})
-			setTimeout(() => {
-				this.setState({
-					percent: nextProps.percent,
-				})
-			}, 0);
-
-		}
-}
-```
-来设定传入参数，触发动画。
-
-
+	201808 fix some bugs
 ### example
 ```
 <PieChat
